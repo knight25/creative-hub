@@ -1,0 +1,60 @@
+body {
+    font: 400 15px Lato, Elephant;
+    line-height: 1.8;
+    color:black;}
+    body { 
+background:url(assets/img/rf.jfif) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.box{
+    width:300px;
+    padding:2px;
+    position:absolute;
+    top:90px;
+    left:-50px;
+    transform: translate(50%,50%);
+    background:#4d4d4d;
+    text-align:center;
+}
+.box h1{
+    color:white;
+    text-transform:uppercase;
+    font-weight:500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #3498db;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    border-radius:24px;
+    transition:0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]{
+    width:200px;
+    border-color:#2ecc71;
+}
+
+.box input[type="submit"]{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #2ecc71;
+    padding:14px 40px;
+    outline:none;
+    border-radius:24px;
+    transition:0.25s;
+    cursor:pointer;
+}
+.box input[type = "submit"]:hover{
+    background:#2ecc71;
+}
